@@ -3,39 +3,43 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet"
-  href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  
-  <style>
-  .parallax {
-    /* The image used */
-    background-image: url("https://user-images.githubusercontent.com/18387343/60148129-bcc4c480-9784-11e9-93f5-077e5351bac6.jpg");
-    /* Set a specific height */
-    min-height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-  .test {
-    height: 1000px;
-    background-color: white;
-    font-size: 14px;
-    }
-   
-  </style>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 </head>
-  
+
 <body>
-  <p>Karen Ho</p>
-  
-  <div class="parallax"></div>
-  
-  <div class="test">
-  This is a test.
+  <nav>
+    <div class='nav-main'>
+      <div class='name'>KAREN HO</div>
+      <div class='spacer'></div>
+      <img class='hamburg' src='assets/hamburg.png'>
+    </div>
+    <div class='nav-social'>
+      <a class='nav-icon' href='https://instagram.com'>
+        <img src='assets/instagram.png' alt='Instagram'>
+      </a>
+      <a class='nav-icon' href='https:/twitter.com'>
+        <img src='assets/twitter.png' alt='Twitter'>
+      </a>
+      <a class='nav-icon' href='https://linkedin.com'>
+        <img class='linkedin' src='assets/linkedin.png' alt='LinkedIn'>
+      </a>
+      <a class='nav-icon' href='mailto:karenho181@gmail.com'>
+        <img class='email' src='assets/email.png' alt='Email'>
+      </a>
+    </div>
+  </nav>
+
+  <div class='container'>
+    <div class='me'></div>
+    <div class='about'>
+      <div class='header'>ABOUT</div>
+      <div class='line'></div>
+      <div class='description'>I am a recent communication graduate with a background in print, magazine and digital media. My skills include:</div>
+    </div>
   </div>
 
 </body>
+
 </html>

@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #FAFAFA;
+}
+
+.nav-main {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 30px;
+  color: #484848;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.hamburg {
+  align-self: center;
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 16px;
+}
+
+.linkedin {
+  margin-bottom: 3px;
+}
+
+.email {
+  margin-top: 1px;
+}

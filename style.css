@@ -1,0 +1,50 @@
+* {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #484848;
+}
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.me {
+  background-image: url('assets/me.jpg');
+  min-height: 230px;
+  height: 40vw;
+  background-position-y: 33%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  padding-top: 66px;
+  text-align: center;
+}
+
+.header {
+  font-family: "Advent Pro";
+  font-weight: 600;
+  font-size: 18px;
+  color: #484848;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 26px;
+  height: 1px;
+  background-color: #707070;
+  margin: 0 auto;
+}
+
+.description {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
