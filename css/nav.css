@@ -2,7 +2,7 @@ nav {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-left: 16px;
   padding-right: 16px;
   background-color: #FAFAFA;
@@ -10,7 +10,6 @@ nav {
 
 .nav-main {
   display: flex;
-  margin-bottom: 4px;
 }
 
 .name {
@@ -23,7 +22,7 @@ nav {
   flex: 1;
 }
 
-.hamburg {
+.hamburger {
   align-self: center;
 }
 
@@ -34,12 +33,4 @@ nav {
 
 .nav-icon {
   margin-right: 16px;
-}
-
-.linkedin {
-  margin-bottom: 3px;
-}
-
-.email {
-  margin-top: 1px;
 }
